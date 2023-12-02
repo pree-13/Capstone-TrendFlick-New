@@ -32,7 +32,7 @@ TrendFlicks is my capstone application for the Kodeco 2023 iOS Accelerator Bootc
    - Allows users to mark movies as favorites, enhancing personalization.
 
    2.2   Watch Trailers:  
-   - Integrates the ability to watch movie trailers, potentially linking trailers from platforms like YouTube.
+   - Integrates the ability to watch movie trailers, potentially linking trailers from platforms like YouTube. Please note currently the app navigates to Youtube.com. User needs to come back to trendflicks. Furture enhancements, I'd include in-app media player.
 
    2.3   Persist User Preferences:  
    - Implements user authentication to persist user preferences and favorite movies across sessions.

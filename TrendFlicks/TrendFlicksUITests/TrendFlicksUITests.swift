@@ -1,7 +1,6 @@
 import XCTest
 
 final class TrendFlicksUITests: XCTestCase {
-  //  RVCAP
   var app = XCUIApplication()
   override func setUpWithError() throws {
     // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -70,12 +69,10 @@ final class TrendFlicksUITests: XCTestCase {
     app.tabBars["Tab Bar"].buttons["Movies"].tap()
     app.buttons.matching(identifier: "movieCell").element(boundBy: 0).tap()
     sleep(3)
-    //  XCTAssertTrue(app.images["moviePosterImage"].exists)
     XCTAssertTrue(app.staticTexts["movieTitle"].exists)
     XCTAssertTrue(app.staticTexts["movieOverviewTitle"].exists)
     XCTAssertTrue(app.staticTexts["movieOverview"].exists)
     XCTAssertTrue(app.buttons["Favorite"].exists)
     app.navigationBars.buttons["Trending Movies"].tap()
-    // RVCAP back btn test
   }
 }

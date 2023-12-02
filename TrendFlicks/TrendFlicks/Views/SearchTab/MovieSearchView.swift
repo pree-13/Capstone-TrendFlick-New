@@ -5,8 +5,7 @@ struct MovieSearchView: View {
   @ObservedObject private var dataStore: DataStore
   @State var fetchQueryTask: Task<Void, Error>?
   @MainActor @State var isDownloading = false
-
-  internal init(dataStore: DataStore) { // RVCAP
+  internal init(dataStore: DataStore) {
     self.dataStore = dataStore
   }
 

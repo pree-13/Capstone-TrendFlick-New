@@ -12,7 +12,7 @@ struct MovieDataModel: Codable, Hashable {
     case totalResults = "total_results"
   }
 }
-// @RVCAP check model once
+
 // MARK: - Result
 struct Result: Codable, Identifiable, Hashable {
   let adult: Bool

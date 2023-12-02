@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E47CCCD2B1AB78200E812D9 /* TMDB-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E47CCCC2B1AB78200E812D9 /* TMDB-Info.plist */; };
+		1EF7EE662B1AD64700C64538 /* Screenshot Favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF7EE622B1AD64600C64538 /* Screenshot Favorites.png */; };
+		1EF7EE672B1AD64700C64538 /* Screenshot Detailed page.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF7EE632B1AD64700C64538 /* Screenshot Detailed page.png */; };
+		1EF7EE682B1AD64700C64538 /* Screenshot.Homepage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF7EE642B1AD64700C64538 /* Screenshot.Homepage.png */; };
+		1EF7EE692B1AD64700C64538 /* Screenshot.Landscapepng.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF7EE652B1AD64700C64538 /* Screenshot.Landscapepng.png */; };
 		A31F97882B1821DC001CC35B /* TrendFlicksUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31F97872B1821DC001CC35B /* TrendFlicksUnitTest.swift */; };
 		A31F978F2B18226A001CC35B /* TrendFlicksHttpCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31F978E2B18226A001CC35B /* TrendFlicksHttpCodes.swift */; };
 		A31F97912B1822A1001CC35B /* TrendFlicksFavUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31F97902B1822A1001CC35B /* TrendFlicksFavUnitTest.swift */; };
@@ -55,6 +60,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E47CCCC2B1AB78200E812D9 /* TMDB-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TMDB-Info.plist"; sourceTree = "<group>"; };
+		1EF7EE622B1AD64600C64538 /* Screenshot Favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot Favorites.png"; sourceTree = "<group>"; };
+		1EF7EE632B1AD64700C64538 /* Screenshot Detailed page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot Detailed page.png"; sourceTree = "<group>"; };
+		1EF7EE642B1AD64700C64538 /* Screenshot.Homepage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.Homepage.png; sourceTree = "<group>"; };
+		1EF7EE652B1AD64700C64538 /* Screenshot.Landscapepng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.Landscapepng.png; sourceTree = "<group>"; };
 		A301B56C2B18478E0007529F /* TrendFlicks.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TrendFlicks.xctestplan; sourceTree = "<group>"; };
 		A31F97852B1821DC001CC35B /* TrendFlicksUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendFlicksUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31F97872B1821DC001CC35B /* TrendFlicksUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendFlicksUnitTest.swift; sourceTree = "<group>"; };
@@ -114,6 +124,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E47CCCB2B1AB77300E812D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1EF7EE6A2B1AD65700C64538 /* Screenshots */,
+				1E47CCCC2B1AB78200E812D9 /* TMDB-Info.plist */,
+				A37499372B1720B200BD7C8D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1EF7EE6A2B1AD65700C64538 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				1EF7EE632B1AD64700C64538 /* Screenshot Detailed page.png */,
+				1EF7EE622B1AD64600C64538 /* Screenshot Favorites.png */,
+				1EF7EE642B1AD64700C64538 /* Screenshot.Homepage.png */,
+				1EF7EE652B1AD64700C64538 /* Screenshot.Landscapepng.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		A31F97862B1821DC001CC35B /* TrendFlicksUnitTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,7 +185,7 @@
 				A3FA938F2B1811AA000E370D /* ViewModel */,
 				A3FA93922B18121F000E370D /* Views */,
 				A3FA93B32B181588000E370D /* Network */,
-				A37499372B1720B200BD7C8D /* Assets.xcassets */,
+				1E47CCCB2B1AB77300E812D9 /* Resources */,
 				A37499392B1720B200BD7C8D /* Preview Content */,
 				A364268B2B199F6500733FF2 /* Launch Screen.storyboard */,
 			);
@@ -368,8 +399,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF7EE682B1AD64700C64538 /* Screenshot.Homepage.png in Resources */,
+				1EF7EE672B1AD64700C64538 /* Screenshot Detailed page.png in Resources */,
+				1EF7EE692B1AD64700C64538 /* Screenshot.Landscapepng.png in Resources */,
 				A374993B2B1720B200BD7C8D /* Preview Assets.xcassets in Resources */,
+				1E47CCCD2B1AB78200E812D9 /* TMDB-Info.plist in Resources */,
 				A37499382B1720B200BD7C8D /* Assets.xcassets in Resources */,
+				1EF7EE662B1AD64700C64538 /* Screenshot Favorites.png in Resources */,
 				A364268C2B199F6500733FF2 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -622,6 +658,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TrendFlicks/Preview Content\"";
@@ -639,8 +676,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.beta.pri.TrendFlicks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.beta.pri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -652,6 +690,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TrendFlicks/Preview Content\"";
@@ -669,8 +708,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.beta.pri.TrendFlicks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.beta.pri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -13,3 +13,4 @@ xcuserdata/
 *.xcconfig
 xcshareddata/
 *.xcscheme
+TrendFlicks/TrendFlicks/Resources/TMDB-Info.plist

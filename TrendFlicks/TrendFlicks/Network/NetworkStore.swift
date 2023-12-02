@@ -52,7 +52,6 @@ class NetworkStore {
 
     var request = URLRequest(url: url)
     request.allHTTPHeaderFields = getHeaders()
-    print(request)
     return request
   }
 
