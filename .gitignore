@@ -1,0 +1,15 @@
+.DS_Store
+*.swp
+*~
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.xcarchive
+*.xcuserstate
+*.xcworkspace
+xcuserdata/
+*.xcuserdatad/
+*.xcconfig
+xcshareddata/
+*.xcscheme

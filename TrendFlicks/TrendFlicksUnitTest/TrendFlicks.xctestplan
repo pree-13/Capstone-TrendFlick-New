@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "C8BF0A61-C4D7-4EBD-8243-44D2A72DD166",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TrendFlicks.xcodeproj",
+      "identifier" : "A374992F2B1720B000BD7C8D",
+      "name" : "TrendFlicks"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TrendFlicks.xcodeproj",
+        "identifier" : "A37499492B1720B200BD7C8D",
+        "name" : "TrendFlicksUITests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TrendFlicks.xcodeproj",
+        "identifier" : "A31F97842B1821DC001CC35B",
+        "name" : "TrendFlicksUnitTest"
+      }
+    }
+  ],
+  "version" : 1
+}
